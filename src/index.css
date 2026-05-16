@@ -530,6 +530,41 @@
     @apply w-full rounded-t-[6px] transition-[height] duration-[0.6s];
     background: linear-gradient(180deg, var(--color-accent) 0%, var(--color-primary) 100%);
   }
+     
+.sedan-bar {
+  height: 140px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, var(--color-accent) 0%, var(--color-primary) 100%);
+}
+
+.suv-bar {
+  height: 120px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, #C56CF0 0%, #8E44AD 100%);
+}
+
+.sports-bar {
+  height: 90px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, #F5CD79 0%, #F39C12 100%);
+}
+
+.booked-bar {
+  height: 70px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, #78E08F 0%, #27AE60 100%);
+}
+
+.revenue-bar {
+  height: 180px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, #60A3FF 0%, #2980B9 100%);
+}
   .bar-label { @apply text-[0.78rem] font-semibold text-center; color: var(--text-muted); }
   .bar-value { @apply text-[0.78rem] font-bold; color: var(--color-primary); }
 
